@@ -1,0 +1,247 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(243, 237, 237);
+}
+
+.container {
+  display: flex;
+}
+
+.one {
+  margin-left: 15%;
+  margin-top: 1%;
+}
+
+.two {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.three {
+  margin-left: 15%;
+  margin-top: 3.7%;
+}
+
+.four {
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.five {
+  margin-left: 5%;
+  margin-top: 3.7%;
+}
+
+.six {
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.seven {
+  margin-left: 5%;
+  margin-top: 3.7%;
+}
+
+.eight {
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+/* CSS */
+.button-18 {
+  align-items: center;
+  background-color:rgb(243, 237, 237);
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  margin-top: 15%;
+  margin-left: 110px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  border: black;
+}
+
+.button-18:hover,
+.button-18:focus {
+  background-color:rgb(180, 253, 180) ;
+  color: #ffffff;
+}
+
+.button-18:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.button-18:disabled {
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+.ten{
+  width: 400px;
+  height: 500px;
+}
+.nine{
+  display: flex;
+}
+.eleven{
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.twelve{
+  font-size: 50px;
+  font-weight: 600;
+}
+/* CSS */
+.thirteen {
+  align-items: center;
+  background-color:rgb(135, 214, 188);
+  border: black;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  border:1px solid #000;
+  width: 170px;
+  height: 50px;
+  min-width: 0px;
+  transition: 5s;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.thirteen:hover,
+.thirteen:focus { 
+  background-color: rgb(4, 185, 125);
+  color: black;
+}
+
+.thirteen:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.thirteen:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+/* CSS */
+.button-23 {
+  background-color: rgb(252, 205, 220);
+  border: 1px solid #222222;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #222222;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  width: 400px;
+  height: 50px;
+  border-radius: 100px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 13px 23px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: 170px;
+}
+
+.button-23:focus-visible {
+  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+  transition: box-shadow .2s;
+}
+.button-23:hover{
+  background-color: brown;
+}
+
+.button-23:active {
+  background-color: #F7F7F7;
+  border-color: #000000;
+  transform: scale(.96);
+}
+
+.button-23:disabled {
+  border-color: #DDDDDD;
+  color: #DDDDDD;
+  cursor: not-allowed;
+  opacity: 1;
+}
+.fourteen{
+  display: flex;
+}
+.fifteen{
+  width: 100%;
+  margin-top: 10%;
+}
+.sixteen{
+  display: flex;
+}
+.twenty{
+  width: 300px;
+  margin-left: 60%;
+}
+.twenty:hover{
+  width: 200px;
+}
+.twenty_two{
+  width: 300px;
+  margin-left: 100%;
+}
+.nineteen{
+  font-size: 20px;
+  margin-left: 62%;
+  font-weight: 500;
+}
+.twenty_one{
+  margin-left: 240px;
+  font-weight: 500;
+  font-size: 20px;
+}
